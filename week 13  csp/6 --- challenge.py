@@ -2,7 +2,7 @@
 # ##Day X Python Challenge — Commission & Bonus Calculator##
 
 ##Scenario:##
-You work for a school store that pays sales staff a ##commission## on monthly sales. Your manager wants a program that greets the salesperson by name, calculates their commission, and tells them whether they qualified for a monthly ##bonus##.
+#You work for a school store that pays sales staff a ##commission## on monthly sales. Your manager wants a program that greets the salesperson by name, calculates their commission, and tells them whether they qualified for a monthly ##bonus##.
 
 ##Your program should:##
 
