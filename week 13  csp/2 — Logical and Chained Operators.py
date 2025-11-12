@@ -38,10 +38,23 @@ else:
 # Practice Problems:
 
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
+num_expression = float(input("To win, type in a number between 50 and 100: "))
+if 50 <= num_expression <= 100:
+    print("Yep, that's between the limit!")
+else:
+    print("You silly goose.")
 
 # Write an expression that checks if a number is NOT equal to 0 and greater than 10.
+write_expression = float(input("To win, type in a number that ISN'T 0 and is greater than 10: "))
+print(write_expression != 0 and write_expression > 10)
 
 # Use chained comparison to check if 3 < 4 < 5.
+print("The Expression '3 < 4 < 5' Is ", str(3 < 4 < 5), ".")
 
 # Challenge: Create a password rule using logical operators:
-
+pass_new = input("Enter your new password. It must be 10 characters long and have at least 2 digits: ")
+if len(pass_new) >= 10 and len([x for x in pass_new if x.isdigit()]) >= 2:
+    print("Good.")
+else:
+    print("No.")
+# Thank you to random stranger "Andres H." on Stack Overflow for helping (someone else) with the code above. I barely know what it means (yet)!
