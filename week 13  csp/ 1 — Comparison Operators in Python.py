@@ -43,3 +43,14 @@ a - b + (b * 2) > 10
 
 # practice problem :
 # where a student must check if their score is greater than or equal to 60 to pass a test.# The password must be at least 8 characters long and contain at least one digit.password = "mypassword1"
+score = int(input("Enter your score: "))
+if score >= 60:
+    print("Congratulations, you passed the test!")
+else:
+    print("Too bad! You failed this test!")
+
+password = input("Enter your password: ")
+if len(password) >= 8 and any(char.isdigit() for char in password):
+    print("Password is valid.")
+else:
+    print("Password is invalid.")
